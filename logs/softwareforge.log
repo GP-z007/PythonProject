@@ -1,0 +1,136 @@
+2026-09-07 06:59:44,603 ERROR MainThread Tk callback exception
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/tkinter/__init__.py", line 1889, in __call__
+    try:
+KeyboardInterrupt
+2026-09-07 06:59:49,582 INFO MainThread Application closing
+2026-09-07 07:01:00,457 INFO MainThread Application closing
+2026-09-07 07:04:02,623 INFO MainThread Application closing
+2026-11-13 06:17:15,546 INFO MainThread FORGE render_started messages=1
+2026-11-13 06:17:15,546 INFO MainThread FORGE render_completed
+2026-11-13 06:17:15,546 INFO MainThread FORGE request=1 phase=idea start
+2026-11-13 06:17:15,546 INFO MainThread FORGE request=1 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:17:15,558 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:17:15,558 INFO MainThread FORGE render_completed
+2026-11-13 06:17:15,574 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:17:26,462 ERROR MainThread FORGE failed
+Traceback (most recent call last):
+  File "/workspaces/python_project/softwareforge/app.py", line 4266, in work
+    spec = self.forge.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/forge.py", line 80, in generate_spec
+    return self.spec_engine.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/spec_engine.py", line 115, in generate_spec
+    return self.omlx.chat_stream(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/knowledge.py", line 534, in chat_stream
+    raise RuntimeError("oMLX returned no streamed chat content.")
+RuntimeError: oMLX returned no streamed chat content.
+2026-11-13 06:17:26,474 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:17:26,475 INFO MainThread FORGE render_completed
+2026-11-13 06:17:46,421 INFO MainThread FORGE render_started messages=3
+2026-11-13 06:17:46,422 INFO MainThread FORGE render_completed
+2026-11-13 06:17:46,422 INFO MainThread FORGE request=2 phase=idea start
+2026-11-13 06:17:46,422 INFO MainThread FORGE request=2 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:17:46,437 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:17:46,437 INFO MainThread FORGE render_completed
+2026-11-13 06:17:46,455 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:17:56,682 ERROR MainThread FORGE failed
+Traceback (most recent call last):
+  File "/workspaces/python_project/softwareforge/app.py", line 4266, in work
+    spec = self.forge.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/forge.py", line 80, in generate_spec
+    return self.spec_engine.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/spec_engine.py", line 115, in generate_spec
+    return self.omlx.chat_stream(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/knowledge.py", line 534, in chat_stream
+    raise RuntimeError("oMLX returned no streamed chat content.")
+RuntimeError: oMLX returned no streamed chat content.
+2026-11-13 06:17:56,700 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:17:56,700 INFO MainThread FORGE render_completed
+2026-11-13 06:21:04,865 INFO MainThread FORGE render_started messages=1
+2026-11-13 06:21:04,865 INFO MainThread FORGE render_completed
+2026-11-13 06:21:04,866 INFO MainThread FORGE request=1 phase=idea start
+2026-11-13 06:21:04,866 INFO MainThread FORGE request=1 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:21:04,878 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:21:04,879 INFO MainThread FORGE render_completed
+2026-11-13 06:21:04,892 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:21:15,175 ERROR MainThread FORGE failed
+Traceback (most recent call last):
+  File "/workspaces/python_project/softwareforge/app.py", line 4266, in work
+    spec = self.forge.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/forge.py", line 80, in generate_spec
+    return self.spec_engine.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/spec_engine.py", line 115, in generate_spec
+    return self.omlx.chat_stream(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/knowledge.py", line 546, in chat_stream
+    raise RuntimeError("oMLX returned no streamed chat content.")
+RuntimeError: oMLX returned no streamed chat content.
+2026-11-13 06:21:15,194 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:21:15,194 INFO MainThread FORGE render_completed
+2026-11-13 06:21:40,369 INFO MainThread FORGE render_started messages=3
+2026-11-13 06:21:40,369 INFO MainThread FORGE render_completed
+2026-11-13 06:21:40,370 INFO MainThread FORGE request=2 phase=idea start
+2026-11-13 06:21:40,370 INFO MainThread FORGE request=2 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:21:40,383 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:21:40,383 INFO MainThread FORGE render_completed
+2026-11-13 06:21:40,394 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:21:50,828 ERROR MainThread FORGE failed
+Traceback (most recent call last):
+  File "/workspaces/python_project/softwareforge/app.py", line 4266, in work
+    spec = self.forge.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/forge.py", line 80, in generate_spec
+    return self.spec_engine.generate_spec(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/spec_engine.py", line 115, in generate_spec
+    return self.omlx.chat_stream(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/python_project/softwareforge/knowledge.py", line 546, in chat_stream
+    raise RuntimeError("oMLX returned no streamed chat content.")
+RuntimeError: oMLX returned no streamed chat content.
+2026-11-13 06:21:50,846 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:21:50,847 INFO MainThread FORGE render_completed
+2026-11-13 06:23:14,118 INFO MainThread FORGE render_started messages=1
+2026-11-13 06:23:14,119 INFO MainThread FORGE render_completed
+2026-11-13 06:23:14,119 INFO MainThread FORGE request=1 phase=idea start
+2026-11-13 06:23:14,119 INFO MainThread FORGE request=1 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:23:14,132 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:23:14,133 INFO MainThread FORGE render_completed
+2026-11-13 06:23:14,147 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:23:24,283 INFO MainThread FORGE request=1 completed chars=5385
+2026-11-13 06:23:24,298 INFO MainThread FORGE render_started messages=2
+2026-11-13 06:23:24,298 INFO MainThread FORGE render_completed
+2026-11-13 06:24:09,147 INFO MainThread FORGE render_started messages=3
+2026-11-13 06:24:09,147 INFO MainThread FORGE render_completed
+2026-11-13 06:24:09,147 INFO MainThread FORGE request=2 phase=spec_review start
+2026-11-13 06:24:09,147 INFO MainThread FORGE request=2 model=qwen/qwen3.6-35b-a3b generation_started
+2026-11-13 06:24:09,161 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:09,161 INFO MainThread FORGE render_completed
+2026-11-13 06:24:09,170 WARNING forge-spec Spec Kit guidance unavailable for specify: 400 Client Error for http+docker://localhost/v1.56/containers/create: Bad Request ("range of CPUs is from 0.01 to 2.00, as there are only 2 CPUs available")
+2026-11-13 06:24:16,748 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:16,748 INFO MainThread FORGE render_completed
+2026-11-13 06:24:16,863 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:16,863 INFO MainThread FORGE render_completed
+2026-11-13 06:24:16,978 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:16,978 INFO MainThread FORGE render_completed
+2026-11-13 06:24:17,092 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:17,092 INFO MainThread FORGE render_completed
+2026-11-13 06:24:17,202 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:17,203 INFO MainThread FORGE render_completed
+2026-11-13 06:24:17,315 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:17,316 INFO MainThread FORGE render_completed
+2026-11-13 06:24:17,433 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:17,433 INFO MainThread FORGE render_completed
+2026-11-13 06:24:17,484 INFO MainThread FORGE request=2 completed chars=495
+2026-11-13 06:24:17,496 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:17,496 INFO MainThread FORGE render_completed
+2026-11-13 06:24:27,094 INFO MainThread FORGE render_started messages=4
+2026-11-13 06:24:27,094 INFO MainThread FORGE render_completed

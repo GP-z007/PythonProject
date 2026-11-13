@@ -1,0 +1,19 @@
+services:
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.39.2
+    container_name: softwareforge-weaviate
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:50051:50051"
+    volumes:
+      - softwareforge_weaviate:/var/lib/weaviate
+    restart: unless-stopped
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+      DEFAULT_VECTORIZER_MODULE: "none"
+      CLUSTER_HOSTNAME: "softwareforge-node"
+
+volumes:
+  softwareforge_weaviate:

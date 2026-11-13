@@ -1,0 +1,8 @@
+customtkinter>=5.2.2
+docker>=7.1
+requests>=2.31
+Pygments>=2.18
+pytest>=8
+
+# GitHub Spec Kit is intentionally installed only in Dockerfile.builder.
+# This keeps the Python 3.9 desktop environment compatible while Build uses Python 3.12.
